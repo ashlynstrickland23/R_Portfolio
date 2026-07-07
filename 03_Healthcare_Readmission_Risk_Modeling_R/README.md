@@ -1,8 +1,36 @@
 # Healthcare Readmission Risk Modeling in R
 
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=rstudioide&logoColor=white)
+![dplyr](https://img.shields.io/badge/dplyr-1E90FF?style=for-the-badge)
+![ggplot2](https://img.shields.io/badge/ggplot2-DC143C?style=for-the-badge)
+![caret](https://img.shields.io/badge/caret-Machine_Learning-6A0DAD?style=for-the-badge)
+![randomForest](https://img.shields.io/badge/randomForest-228B22?style=for-the-badge)
+![Healthcare Analytics](https://img.shields.io/badge/Healthcare_Analytics-2E8B57?style=for-the-badge)
+![Risk Modeling](https://img.shields.io/badge/Risk_Modeling-8A2BE2?style=for-the-badge)
+![Classification](https://img.shields.io/badge/Classification-DC143C?style=for-the-badge)
+![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-FF8C00?style=for-the-badge)
+![Model Comparison](https://img.shields.io/badge/Model_Comparison-4682B4?style=for-the-badge)
+![Dashboard Ready Data](https://img.shields.io/badge/Dashboard_Ready_Data-181717?style=for-the-badge)
+
+## Tools and Skills Used
+
+![R Programming](https://img.shields.io/badge/R_Programming-276DC3?style=for-the-badge)
+![RStudio Workflow](https://img.shields.io/badge/RStudio_Workflow-75AADB?style=for-the-badge)
+![Data Simulation](https://img.shields.io/badge/Data_Simulation-008080?style=for-the-badge)
+![Healthcare Analytics](https://img.shields.io/badge/Healthcare_Analytics-2E8B57?style=for-the-badge)
+![Readmission Risk Modeling](https://img.shields.io/badge/Readmission_Risk_Modeling-8A2BE2?style=for-the-badge)
+![Patient Risk Scoring](https://img.shields.io/badge/Patient_Risk_Scoring-DC143C?style=for-the-badge)
+![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-4682B4?style=for-the-badge)
+![Random Forest](https://img.shields.io/badge/Random_Forest-228B22?style=for-the-badge)
+![Feature Importance](https://img.shields.io/badge/Feature_Importance-181717?style=for-the-badge)
+![Care Management](https://img.shields.io/badge/Care_Management_Recommendations-FF8C00?style=for-the-badge)
+
 This project demonstrates how R can be used for healthcare analytics, 30 day readmission risk modeling, patient risk scoring, care management prioritization, model comparison, feature importance, and dashboard ready reporting outputs.
 
 The project uses a simulated dataset with 15,000 patient records. It analyzes readmission risk by diagnosis, department, age band, readmission risk band, and care management recommendation while creating clean CSV outputs, visual summaries, model performance results, and feature importance analysis.
+
+> **Data Privacy Note:** This project uses fully simulated sample data created for portfolio demonstration purposes only. It does not contain real patient records, protected health information, personal health information, or data from real people.
 
 ---
 
