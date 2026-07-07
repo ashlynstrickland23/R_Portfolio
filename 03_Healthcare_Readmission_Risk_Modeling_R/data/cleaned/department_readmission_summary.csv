@@ -1,0 +1,7 @@
+department,total_patients,readmitted_patients,readmission_rate,average_length_of_stay,total_estimated_readmission_cost,average_readmission_probability
+Pulmonology,2093,954,0.4558,11.12,24378534.55,0.4422
+Nephrology,1802,801,0.4445,10.89,20090559.42,0.44
+Emergency,2507,1109,0.4424,11.13,27798003.24,0.4392
+Internal Medicine,3666,1574,0.4294,11.19,39692745.77,0.4336
+Surgery,1916,809,0.4222,10.75,19760764.31,0.4399
+Cardiology,3016,1255,0.4161,10.82,31542517.11,0.4356

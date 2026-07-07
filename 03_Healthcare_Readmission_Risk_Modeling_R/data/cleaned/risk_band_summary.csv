@@ -1,0 +1,5 @@
+readmission_risk_band,total_patients,readmitted_patients,readmission_rate,average_readmission_probability,total_estimated_readmission_cost,average_risk_flags
+Critical Risk,5448,3337,0.6125,0.6134,83955084.02,3.64
+High Risk,6431,2511,0.3905,0.3978,62453058.42,2.29
+Moderate Risk,2697,609,0.2258,0.2323,15572214.75,1.26
+Low Risk,424,45,0.1061,0.0926,1282767.21,0.38

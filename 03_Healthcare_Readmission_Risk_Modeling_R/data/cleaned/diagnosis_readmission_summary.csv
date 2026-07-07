@@ -1,0 +1,8 @@
+primary_diagnosis,total_patients,readmitted_patients,readmission_rate,average_length_of_stay,average_chronic_conditions,total_estimated_readmission_cost,average_readmission_probability
+Heart Failure,2690,1415,0.526,10.84,3.58,35558910.52,0.5215
+COPD,2063,992,0.4809,11.04,3.52,24818645.97,0.4906
+Kidney Disease,1746,805,0.4611,11.29,3.54,20273459.37,0.4757
+Pneumonia,1926,758,0.3936,10.85,3.44,19254272.78,0.3914
+Post Surgery,1878,734,0.3908,11.07,3.49,18275071.3,0.3924
+Diabetes,2447,944,0.3858,10.97,3.49,23236027.16,0.3881
+Hypertension,2250,854,0.3796,11.06,3.45,21846737.3,0.3911

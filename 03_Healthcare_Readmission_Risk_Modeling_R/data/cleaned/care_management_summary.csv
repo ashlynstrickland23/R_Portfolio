@@ -1,0 +1,5 @@
+care_management_recommendation,total_patients,readmitted_patients,readmission_rate,total_estimated_readmission_cost,average_readmission_probability
+Immediate Care Management Outreach,5448,3337,0.6125,83955084.02,0.6134
+High Priority Follow Up,6431,2511,0.3905,62453058.42,0.3978
+Standard Follow Up,2697,609,0.2258,15572214.75,0.2323
+Routine Discharge Plan,424,45,0.1061,1282767.21,0.0926
