@@ -269,6 +269,81 @@ sink("01_Customer_Churn_Analysis_R/outputs/model_confusion_matrix.txt")
 print(confusion)
 sink()
 
+risk_distribution_plot <- ggplot(customer_data, aes(x = risk_band)) +
+  geom_bar() +
+  labs(
+    title = "Customer Distribution by Risk Band",
+    x = "Risk Band",
+    y = "Customer Count"
+  ) +
+  theme_minimal()
+
+ggsave(
+  "01_Customer_Churn_Analysis_R/images/customer_distribution_by_risk_band.png",
+  risk_distribution_plot,
+  width = 10,
+  height = 6,
+  dpi = 300
+)
+
+usage_satisfaction_plot <- ggplot(
+  customer_data,
+  aes(x = product_usage_score, y = satisfaction_score, color = factor(churned))
+) +
+  geom_point(alpha = 0.35) +
+  labs(
+    title = "Product Usage vs Satisfaction by Churn Status",
+    x = "Product Usage Score",
+    y = "Satisfaction Score",
+    color = "Churned"
+  ) +
+  theme_minimal()
+
+ggsave(
+  "01_Customer_Churn_Analysis_R/images/product_usage_vs_satisfaction_churn.png",
+  usage_satisfaction_plot,
+  width = 10,
+  height = 6,
+  dpi = 300
+)
+
+tenure_churn_plot <- ggplot(customer_data, aes(x = tenure_months, fill = factor(churned))) +
+  geom_histogram(bins = 30, alpha = 0.75, position = "identity") +
+  labs(
+    title = "Customer Tenure Distribution by Churn Status",
+    x = "Tenure Months",
+    y = "Customer Count",
+    fill = "Churned"
+  ) +
+  theme_minimal()
+
+ggsave(
+  "01_Customer_Churn_Analysis_R/images/tenure_distribution_by_churn_status.png",
+  tenure_churn_plot,
+  width = 10,
+  height = 6,
+  dpi = 300
+)
+
+risk_flags_plot <- customer_data %>%
+  count(total_risk_flags) %>%
+  ggplot(aes(x = total_risk_flags, y = n)) +
+  geom_col() +
+  labs(
+    title = "Customer Count by Total Risk Flags",
+    x = "Total Risk Flags",
+    y = "Customer Count"
+  ) +
+  theme_minimal()
+
+ggsave(
+  "01_Customer_Churn_Analysis_R/images/customer_count_by_total_risk_flags.png",
+  risk_flags_plot,
+  width = 10,
+  height = 6,
+  dpi = 300
+)
+
 print("R customer churn analysis project completed.")
 print(paste("Rows created:", nrow(customer_data)))
 print(paste("Overall churn rate:", round(mean(customer_data$churned == 1) * 100, 2), "%"))
