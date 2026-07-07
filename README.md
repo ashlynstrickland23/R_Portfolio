@@ -1,2 +1,1 @@
-# Databricks_Data_Science_Portfolio
-I will be using Databricks to build an end to end data science project by loading data, cleaning it with PySpark, creating Delta tables, running SQL analysis, training a machine learning model, tracking results with MLflow, and exporting outputs for GitHub.
+R data science portfolio showcasing statistical analysis, data cleaning, visualization, regression, classification, customer churn analysis, forecasting, and business insights using R, RStudio, tidyverse, ggplot2, caret, and dashboard ready outputs for analytics and reporting projects.
