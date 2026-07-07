@@ -1,0 +1,28 @@
+[1] "Best Model: Logistic Regression"
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   No  Yes
+       No  4709 1119
+       Yes  211  210
+                                          
+               Accuracy : 0.7872          
+                 95% CI : (0.7768, 0.7973)
+    No Information Rate : 0.7873          
+    P-Value [Acc > NIR] : 0.5197          
+                                          
+                  Kappa : 0.1534          
+                                          
+ Mcnemar's Test P-Value : <2e-16          
+                                          
+            Sensitivity : 0.15801         
+            Specificity : 0.95711         
+         Pos Pred Value : 0.49881         
+         Neg Pred Value : 0.80800         
+             Prevalence : 0.21267         
+         Detection Rate : 0.03361         
+   Detection Prevalence : 0.06737         
+      Balanced Accuracy : 0.55756         
+                                          
+       'Positive' Class : Yes             
+                                          

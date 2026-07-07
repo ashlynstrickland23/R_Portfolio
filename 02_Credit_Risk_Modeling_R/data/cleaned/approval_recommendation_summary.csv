@@ -1,0 +1,6 @@
+approval_recommendation,total_applicants,defaulted_applicants,default_rate,total_loan_value,loan_value_at_risk,average_default_probability
+High Risk Review,5773,2198,0.3807,143460056.58,55035690.06,0.3775
+Manual Underwriting Review,2751,657,0.2388,104906640.01,24882997.33,0.2243
+Approve with Review,5401,1165,0.2157,94777672.62,20594681.89,0.2163
+Decline or Require Strong Mitigation,1152,663,0.5755,31692225.45,18328974.29,0.5749
+Approve,9923,635,0.064,214446833.85,14877420.08,0.0614

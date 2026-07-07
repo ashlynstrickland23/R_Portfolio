@@ -1,0 +1,5 @@
+risk_band,total_applicants,defaulted_applicants,default_rate,average_default_probability,total_loan_value,loan_value_at_risk,average_risk_flags
+Critical Risk,1152,663,0.5755,0.5749,31692225.45,18328974.29,3.23
+High Risk,5773,2198,0.3807,0.3775,143460056.58,55035690.06,2.16
+Moderate Risk,8152,1822,0.2235,0.219,199684312.63,45477679.22,1.35
+Low Risk,9923,635,0.064,0.0614,214446833.85,14877420.08,0.41
