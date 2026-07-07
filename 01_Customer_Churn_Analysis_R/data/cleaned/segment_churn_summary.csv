@@ -1,0 +1,5 @@
+customer_segment,total_customers,churned_customers,churn_rate,average_monthly_revenue,average_satisfaction_score,total_revenue_at_risk
+Small Business,3526,1078,0.3057,185.49,7.18,2393229.24
+Mid Market,2967,888,0.2993,187.17,7.17,1993580.76
+Enterprise,2021,594,0.2939,183.35,7.11,1307727.96
+Consumer,1486,435,0.2927,186.12,7.15,960168.84

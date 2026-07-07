@@ -1,0 +1,5 @@
+risk_band,total_customers,churned_customers,churn_rate,average_churn_probability,total_annual_revenue,total_revenue_at_risk,average_risk_flags
+Critical Risk,416,259,0.6226,0.6566,914587.8,558568.68,2.69
+High Risk,2167,1056,0.4873,0.4805,4844406.48,2334890.52,1.94
+Moderate Risk,5031,1455,0.2892,0.2903,11216040.6,3250036.32,1.09
+Low Risk,2386,225,0.0943,0.0954,5303186.4,511211.28,0.68

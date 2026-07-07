@@ -1,0 +1,4 @@
+contract_type,total_customers,churned_customers,churn_rate,average_monthly_revenue,average_tenure_months,total_revenue_at_risk
+Month to Month,5000,2003,0.4006,185.69,36.65,4439424.48
+Annual,3541,797,0.2251,184.56,35.78,1777542.48
+Two Year,1459,195,0.1337,188.18,36.45,437739.84
