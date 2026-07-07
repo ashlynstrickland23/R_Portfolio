@@ -1,1 +1,3 @@
-R data science portfolio showcasing statistical analysis, data cleaning, visualization, regression, classification, customer churn analysis, forecasting, and business insights using R, RStudio, tidyverse, ggplot2, caret, and dashboard ready outputs for analytics and reporting projects.
+R portfolio showcasing data cleaning, statistical analysis, visualization, regression, classification, forecasting, and business insights using R, RStudio, tidyverse, ggplot2, caret, and dashboard ready outputs.
+
+## In Progress
